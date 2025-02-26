@@ -1,0 +1,91 @@
+/* ItemList.css */
+.item-list-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.title,
+.subtitle {
+  text-align: center;
+  color: #333;
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.input {
+  flex: 1;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.add-button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.add-button:hover {
+  background-color: #218838;
+}
+
+.item-list {
+  margin-top: 20px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.item:last-child {
+  border-bottom: none;
+}
+
+.item-number {
+  font-weight: bold;
+  color: #555;
+}
+
+.item-name {
+  flex: 1;
+  margin: 0 10px;
+  color: #333;
+}
+
+.delete-button {
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.delete-button:hover {
+  background-color: #a71d2a;
+}
+
+.empty-message {
+  text-align: center;
+  color: #777;
+  margin-top: 20px;
+}
